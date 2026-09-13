@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "khassida": "Jawartou",
+    "khassidaArabe": "جوارت",
+    "traductionTitre": "Je me suis réfugié",
+    "nombreBeyits": 3,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "فَرَقْتُ إِبْلِيسَ وَجَمِيعَ الْمَفَاسِدِ",
+        "vers2": "وَمَا زِلْتُ فِي حِصْنِي الْحَصِينِ الْمُمَجَّدِ",
+        "transcription1": "Faraqtou Iblissa wa jami' al mafassidi",
+        "transcription2": "Wa ma ziltou fi hisni al-hasin al-mumajjadi",
+        "traduction": "J'ai délaissé Satan et toutes les corruptions, et je demeure dans ma forteresse glorifiée."
+      },
+      {
+        "numero": 2,
+        "vers1": "لَزِمْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+        "vers2": "وَجَمِيعَ الْمَصَالِحِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+        "transcription1": "Lazamtou rassoul lâhi sallal lâhou 'alayhi wassallama",
+        "transcription2": "Wa jami'al massalihi wala hawla wala khouwata illâ billahil 'alliyil azimi",
+        "traduction": "Je me suis attaché au Messager d'Allah (ﷺ) et à toutes les bonnes œuvres. Il n'y a de force ni de puissance qu'en Allah, le Très-Haut, le Très-Grand."
+      },
+      {
+        "numero": 3,
+        "vers1": "جَوَرْتُ لَهَا بِكِتَابِهِ إِلَى دُخُولِيَا جَنَّتَهُ",
+        "vers2": "جَوَرْتُ بِالْفُرْقَانِ رَبِّيَ الْمُهِينَ",
+        "transcription1": "Jawartou lahâ bikitabuhî ila doukhouliya jannatahou",
+        "transcription2": "Jawartou bil-fourkhani rabiyal mouhine",
+        "traduction": "Je me suis réfugié en Lui par Son Livre pour entrer dans Son Paradis. Je me suis réfugié par le Discernement (le Coran), mon Seigneur, l'Incomparable Auxiliaire."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "khassida": "Sindidi",
+    "khassidaArabe": "الصنديد",
+    "traductionTitre": "Le Notable",
+    "nombreBeyits": 1,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "يَا اللَّهُ بِالْمُصْطَفَى يَا اللَّهُ",
+        "vers2": "وَبِالْخَلِيلِ إِبْرَاهِيمَ يَا اللَّهُ",
+        "transcription1": "Yâ Allahou bil-Mustafâ yâ Allahou",
+        "transcription2": "Wa bil-Khalîli Ibrâhîma yâ Allahou",
+        "traduction": "Ô mon Dieu ! Je T'invoque par considération pour l'Élu (le Prophète Muhammad), ô mon Dieu ! Et par considération pour Ton ami Abraham, ô mon Dieu !"
+      }
+    ]
+  }
+]
+
+[
+  {
+    "id": 1,
+    "khassida": "Jawartou",
+    "khassidaArabe": "جوارت",
+    "traductionTitre": "Je me suis réfugié",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "فَرَقْتُ إِبْلِيسَ وَجَمِيعَ الْمَفَاسِدِ",
+        "vers2": "وَمَا زِلْتُ فِي حِصْنِي الْحَصِينِ الْمُمَجَّدِ",
+        "transcription1": "Faraqtou Iblissa wa jami' al mafassidi",
+        "transcription2": "Wa ma ziltou fi hisni al-hasin al-mumajjadi",
+        "traduction": "J'ai délaissé Satan et toutes les corruptions, et je demeure dans ma forteresse glorifiée."
+      },
+      {
+        "numero": 2,
+        "vers1": "جَوَرْتُ لَهَا بِكِتَابِهِ إِلَى دُخُولِيَا جَنَّتَهُ",
+        "vers2": "جَوَرْتُ بِالْفُرْقَانِ رَبِّيَ الْمُهِينَ",
+        "transcription1": "Jawartou lahâ bikitabuhî ila doukhouliya jannatahou",
+        "transcription2": "Jawartou bil-fourkhani rabiyal mouhine",
+        "traduction": "Je me suis réfugié en Lui par Son Livre pour entrer dans Son Paradis. Je me suis réfugié par le Discernement (le Coran), mon Seigneur, l'Incomparable Auxiliaire."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "khassida": "Sindidi",
+    "khassidaArabe": "الصنديد",
+    "traductionTitre": "Le Notable",
+    "nombreBeyits": 1,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "يَا اللَّهُ بِالْمُصْطَفَى يَا اللَّهُ",
+        "vers2": "وَبِالْخَلِيلِ إِبْرَاهِيمَ يَا اللَّهُ",
+        "transcription1": "Yâ Allahou bil-Mustafâ yâ Allahou",
+        "transcription2": "Wa bil-Khalîli Ibrâhîma yâ Allahou",
+        "traduction": "Ô mon Dieu ! Je T'invoque par considération pour l'Élu (le Prophète Muhammad), ô mon Dieu ! Et par considération pour Ton ami Abraham, ô mon Dieu !"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "khassida": "Matlaboul Fawzeyni",
+    "khassidaArabe": "مطلب الفوزين",
+    "traductionTitre": "La quête du bonheur des deux mondes",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "الْحَمْدُ لِلَّهِ الَّذِي هَدَانَا",
+        "vers2": "لِدِينِ الْإِسْلَامِ وَاجْتَبَانَا",
+        "transcription1": "Al-hamdou lillâhi alladzî hadânâ",
+        "transcription2": "Li dîni al-islâmi wa ijtabânâ",
+        "traduction": "Louange à Allah qui nous a guidés vers la religion de l'Islam et nous a élus."
+      },
+      {
+        "numero": 2,
+        "vers1": "وَالصَّلَاةُ عَلَى النَّبِيِّ الْمُصْطَفَى",
+        "vers2": "خَيْرِ الْوَرَى مَنْ جَاءَ بِالْهُدَى",
+        "transcription1": "Wa as-salâtou 'alâ an-nabiyyi al-mustafâ",
+        "transcription2": "Khayri al-warâ man jâ'a bil-hudâ",
+        "traduction": "Et la prière sur le Prophète élu, le meilleur des hommes, celui qui est venu avec la guidée."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "khassida": "Mafatihul Bichri",
+    "khassidaArabe": "مفاتح البشر",
+    "traductionTitre": "Les clés de la bonne nouvelle",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "الْحَمْدُ لِلَّهِ الَّذِي أَرْسَلَ رَسُولَهُ",
+        "vers2": "بِالْهُدَى وَدِينِ الْحَقِّ لِيُظْهِرَهُ",
+        "transcription1": "Al-hamdou lillâhi alladzî arsala rasoûlahou",
+        "transcription2": "Bil-hudâ wa dîni al-haqqi li yudz-hirahou",
+        "traduction": "Louange à Allah qui a envoyé Son Messager avec la guidée et la religion de vérité pour qu'elle triomphe."
+      },
+      {
+        "numero": 2,
+        "vers1": "مُحَمَّدٌ سَيِّدُ الْوَلَدِ آدَمَ",
+        "vers2": "وَخَيْرُ مَنْ جَاءَ بِالْهُدَى وَالْكَرَمِ",
+        "transcription1": "Muhammadun sayyidou al-waladi Âdama",
+        "transcription2": "Wa khayrou man jâ'a bil-hudâ wal-karami",
+        "traduction": "Muhammad est le maître des enfants d'Adam, et le meilleur de ceux qui sont venus avec la guidée et la générosité."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "khassida": "Nourou Darayni",
+    "khassidaArabe": "نور الدارين",
+    "traductionTitre": "La lumière des deux demeures",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "نُورُ الدَّارَيْنِ أَحْمَدُ الْمُخْتَارُ",
+        "vers2": "خَيْرُ الْبَرِيَّةِ طَاهِرُ الْأَخْبَارِ",
+        "transcription1": "Nourou ad-dârayni Ahmadou al-mukhtârou",
+        "transcription2": "Khayrou al-bariyyati tâhirou al-akhbâri",
+        "traduction": "La lumière des deux demeures est Ahmad l'élu, le meilleur de la création, au passé pur."
+      },
+      {
+        "numero": 2,
+        "vers1": "صَلَّى عَلَيْهِ اللَّهُ مَا لَاحَ الضِّيَا",
+        "vers2": "وَمَا سَجَعَتْ وَرْقَاءُ فِي الدَّوْحِ عَلَا",
+        "transcription1": "Sallâ 'alayhi Allâhou mâ lâha ad-diyâ",
+        "transcription2": "Wa mâ saja'at warqâ'ou fi ad-dawhi 'alâ",
+        "traduction": "Qu'Allah prie sur lui tant que brille la lumière, et tant que chante la colombe sur la haute branche."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "khassida": "Mawaahibun Naafih",
+    "khassidaArabe": "مواهب النافع",
+    "traductionTitre": "Les dons bienfaisants",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "مَوَاهِبُ النَّافِعِ فِي كُلِّ حَالِ",
+        "vers2": "مِنْ رَبِّنَا الْجَوَادِ ذِي الْجَلَالِ",
+        "transcription1": "Mawâhibou an-nâfi'i fî koulli hâli",
+        "transcription2": "Min rabbinâ al-jawâdi dzî al-jalâli",
+        "traduction": "Les dons bienfaisants en toute situation viennent de notre Seigneur, le Généreux, le Détenteur de la Majesté."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَسْأَلُهُ الْعَفْوَ وَحُسْنَ الْخِتَامِ",
+        "vers2": "وَالْفَوْزَ بِالْجَنَّةِ دَارِ السَّلَامِ",
+        "transcription1": "As'alouhou al-'afwa wa housna al-khitâmi",
+        "transcription2": "Wal-fawza bil-jannati dâri as-salâmi",
+        "traduction": "Je Lui demande le pardon, une belle fin, et la réussite du Paradis, la demeure de la paix."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "khassida": "Jazbul Qulub",
+    "khassidaArabe": "جذب القلوب",
+    "traductionTitre": "L'attraction des cœurs",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "جَذْبُ الْقُلُوبِ إِلَى الْحَبِيبِ",
+        "vers2": "نُورٌ يُضِيءُ دَرْبَ الْغَرِيبِ",
+        "transcription1": "Jadzbou al-qouloûbi ilâ al-habîbi",
+        "transcription2": "Noûroun youdî'ou darba al-gharîbi",
+        "traduction": "L'attraction des cœurs vers le Bien-Aimé est une lumière qui éclaire le chemin de l'étranger."
+      },
+      {
+        "numero": 2,
+        "vers1": "يَا رَبِّ فَاجْذِبْنِي إِلَى رِضَاكَ",
+        "vers2": "وَاجْعَلْ فُؤَادِي تَائِهًا فِي هَوَاكَ",
+        "transcription1": "Yâ Rabbi fajdzibnî ilâ ridâka",
+        "transcription2": "Waj'al fou'âdî tâ'ihan fî hawâka",
+        "traduction": "Ô mon Seigneur, attire-moi vers Ta satisfaction, et fais que mon cœur soit perdu dans Ton amour."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "khassida": "Tazawudu Sighaar",
+    "khassidaArabe": "تزود الصغار",
+    "traductionTitre": "Les provisions des jeunes",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "تَزَوَّدُوا يَا صِغَارُ بِالتَّقْوَى",
+        "vers2": "فَإِنَّهَا خَيْرُ زَادٍ لِلْأُخْرَى",
+        "transcription1": "Tazawwadou yâ sighârou bit-taqwâ",
+        "transcription2": "Fa innahâ khayrou zâdin lil-oukhra",
+        "traduction": "Faites provision, ô jeunes, de la piété, car elle est la meilleure provision pour l'au-delà."
+      },
+      {
+        "numero": 2,
+        "vers1": "وَاطْلُبُوا الْعِلْمَ فِي الصِّغَرِ",
+        "vers2": "فَإِنَّهُ فِي الْكِبَرِ يُثْمِرُ",
+        "transcription1": "Watloubou al-'ilma fis-sighari",
+        "transcription2": "Fa innahou fil-kibari yudzmira",
+        "traduction": "Recherchez la science dans la jeunesse, car elle portera ses fruits dans la vieillesse."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "khassida": "Massalik al-Jinan",
+    "khassidaArabe": "مسالك الجنان",
+    "traductionTitre": "Les itinéraires du Paradis",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "مَسَالِكُ الْجِنَانِ سَبِيلُ الْهُدَى",
+        "vers2": "لِمَنْ أَرَادَ الْفَوْزَ وَالرِّضَا",
+        "transcription1": "Masâlikou al-jinâni sabîlou al-houdâ",
+        "transcription2": "Liman arâda al-fawza war-ridâ",
+        "traduction": "Les itinéraires du Paradis sont le chemin de la guidée pour celui qui veut la réussite et la satisfaction."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَسْلُكْ سَبِيلَ الْعَارِفِينَ بِاللَّهِ",
+        "vers2": "تَجِدْ رِضَا الرَّحْمَنِ فِي مَنْهَاكَ",
+        "transcription1": "Oslouk sabîla al-'ârifîna billâhi",
+        "transcription2": "Tajid ridâ ar-Rahmâni fî manhâka",
+        "traduction": "Emprunte le chemin de ceux qui connaissent Allah, et tu trouveras la satisfaction du Miséricordieux sur ta route."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "khassida": "Touhfatou",
+    "khassidaArabe": "تحفة",
+    "traductionTitre": "Le cadeau spirituel",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "تُحْفَةُ الْعَبْدِ الْفَقِيرِ",
+        "vers2": "إِلَى الرَّحِيمِ الْقَدِيرِ",
+        "transcription1": "Touhfatou al-'abdi al-faqîri",
+        "transcription2": "Ilâ ar-Rahîmi al-qadîri",
+        "traduction": "Cadeau du serviteur pauvre au Miséricordieux Tout-Puissant."
+      },
+      {
+        "numero": 2,
+        "vers1": "يَا رَبِّ تَقَبَّلْ مِنِّي",
+        "vers2": "وَاغْفِرْ ذُنُوبِي وَارْحَمْنِي",
+        "transcription1": "Yâ Rabbi taqabbal minnî",
+        "transcription2": "Waghfir dzounoûbî warhamnî",
+        "traduction": "Ô Seigneur, accepte de moi, pardonne mes péchés et fais-moi miséricorde."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "khassida": "Asiiru",
+    "khassidaArabe": "اسير",
+    "traductionTitre": "Le prisonnier",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "أَسِيرُ فِي سِجْنِ الْهَوَى",
+        "vers2": "أَسْأَلُكَ اللَّهُمَّ الْعَفْوَ",
+        "transcription1": "Asîrou fî sijni al-hawâ",
+        "transcription2": "As'alouka Allâhoumma al-'afwa",
+        "traduction": "Prisonnier dans la geôle du désir, je Te demande, ô Allah, le pardon."
+      },
+      {
+        "numero": 2,
+        "vers1": "خَلِّصْنِي مِنْ أَسْرِي",
+        "vers2": "وَاجْعَلْنِي مِنْ أَحْرَارِكَ",
+        "transcription1": "Khallisnî min asrî",
+        "transcription2": "Waj'alnî min ahrârika",
+        "traduction": "Libère-moi de ma captivité et place-moi parmi Tes affranchis."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "khassida": "Khaloo Liyarkan",
+    "khassidaArabe": "خلو ليركن",
+    "traductionTitre": "Ils m'ont laissé",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "خَلُّوا لِيَرْكَنْ إِلَى اللَّهِ",
+        "vers2": "فَإِنَّ اللَّهَ هُوَ الْمَلْجَأُ",
+        "transcription1": "Khallou liyarkan ilâ Allâhi",
+        "transcription2": "Fa inna Allâha houwa al-malja'ou",
+        "traduction": "Ils m'ont laissé me réfugier auprès d'Allah, car c'est Allah qui est le refuge."
+      },
+      {
+        "numero": 2,
+        "vers1": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِهِ",
+        "vers2": "هُوَ الْغَنِيُّ وَنَحْنُ الْفُقَرَاءُ",
+        "transcription1": "Lâ hawla wa lâ qouwata illâ bihi",
+        "transcription2": "Houwa al-ghaniyou wa nahnou al-fouqarâ'ou",
+        "traduction": "Il n'y a de force ni de puissance qu'en Lui. Il est le Riche, et nous sommes les pauvres."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "khassida": "Wakana Hakhan",
+    "khassidaArabe": "وكان حقا",
+    "traductionTitre": "Et c'était une vérité",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "وَكَانَ حَقًّا عَلَى اللَّهِ نَصْرُهُ",
+        "vers2": "لِمَنْ يَنْصُرُ دِينَهُ وَيَنْصُرُهُ",
+        "transcription1": "Wa kâna haqqan 'alâ Allâhi nasrouhou",
+        "transcription2": "Liman yansourou dînahou wa yansourouhou",
+        "traduction": "Et il était de vérité qu'Allah accorde Son secours à celui qui secourt Sa religion et Le secourt."
+      },
+      {
+        "numero": 2,
+        "vers1": "يَا نَاصِرَ الْإِسْلَامِ كُنْ لِي نَاصِرًا",
+        "vers2": "وَاجْعَلْ فُؤَادِي بِالْيَقِينِ عَامِرًا",
+        "transcription1": "Yâ nâsira al-islâmi koun lî nâsiran",
+        "transcription2": "Waj'al fou'âdî bil-yaqîni 'âmmiran",
+        "traduction": "Ô Secoureur de l'Islam, sois mon secoureur, et fais que mon cœur soit peuplé de certitude."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "khassida": "Mafatihul Jinaan",
+    "khassidaArabe": "مفاتح الجنان",
+    "traductionTitre": "Les clés du Paradis",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "مَفَاتِيحُ الْجِنَانِ بِذِكْرِ اللَّهِ",
+        "vers2": "وَبِالصَّلَاةِ عَلَى خَيْرِ خَلْقِ اللَّهِ",
+        "transcription1": "Mafâtîhou al-jinâni bidzikri Allâhi",
+        "transcription2": "Wa bis-salâti 'alâ khayri khalqi Allâhi",
+        "traduction": "Les clés du Paradis sont dans l'évocation d'Allah et la prière sur le meilleur de Sa création."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَكْثِرْ مِنَ الذِّكْرِ فِي كُلِّ حِينٍ",
+        "vers2": "تَفْتَحْ لَكَ أَبْوَابَ الْجِنَانِ",
+        "transcription1": "Akthir mina adz-dzikri fî koulli hînin",
+        "transcription2": "Taftah laka abwâba al-jinâni",
+        "traduction": "Multiplie l'évocation à tout moment, et les portes du Paradis s'ouvriront pour toi."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "khassida": "Mouqaddamatul Amdaah",
+    "khassidaArabe": "مقدمة المدائح",
+    "traductionTitre": "Introduction aux louanges",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "مُقَدِّمَةُ الْمَدَائِحِ فِي حَمْدِ الْإِلَهِ",
+        "vers2": "وَمَدْحِ النَّبِيِّ الْمُصْطَفَى ذِي الْجَاهِ",
+        "transcription1": "Mouqaddimatou al-madâ'ihi fî hamdi al-ilâhi",
+        "transcription2": "Wa madhi an-nabiyyi al-mustafâ dzî al-jâhi",
+        "traduction": "Introduction aux louanges envers Allah et envers le Prophète élu, possesseur de haut rang."
+      },
+      {
+        "numero": 2,
+        "vers1": "الْحَمْدُ لِلَّهِ عَلَى كُلِّ حَالِ",
+        "vers2": "وَالصَّلَاةُ عَلَى النَّبِيِّ الْغَالِي",
+        "transcription1": "Al-hamdou lillâhi 'alâ koulli hâli",
+        "transcription2": "Was-salâtou 'alâ an-nabiyyi al-ghâlî",
+        "traduction": "Louange à Allah en toute situation, et prière sur le Prophète précieux."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "khassida": "Jaalibatul Maraaghibi",
+    "khassidaArabe": "جالبية المراغب",
+    "traductionTitre": "Celle qui attire les désirs",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "جَالِبَةُ الْمَرَاغِبِ إِلَى الْجَنَّةِ",
+        "vers2": "لِمَنْ أَرَادَ الْفَوْزَ بِالْمَغْفِرَةِ",
+        "transcription1": "Jâlibatou al-marâghibi ilâ al-jannati",
+        "transcription2": "Liman arâda al-fawza bil-maghfirati",
+        "traduction": "Celle qui attire les désirs vers le Paradis, pour celui qui veut la réussite par le pardon."
+      },
+      {
+        "numero": 2,
+        "vers1": "يَا طَالِبَ الْخَيْرِ اسْتَمِعْ وَاعْمَلْ",
+        "vers2": "فَإِنَّ الْعَمَلَ بِالْعِلْمِ يُكْمِلُ",
+        "transcription1": "Yâ tâliba al-khayri istami' wa'mal",
+        "transcription2": "Fa inna al-'amala bil-'ilmi youkmilou",
+        "traduction": "Ô chercheur de bien, écoute et agis, car l'action avec la science est ce qui complète."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "khassida": "Fazaat Qilaamii",
+    "khassidaArabe": "فازات قلامي",
+    "traductionTitre": "Mes plumes ont triomphé",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "فَازَتْ قَلَامِي فِي مَدْحِ الْحَبِيبِ",
+        "vers2": "وَنَالَتْ شَرَفَ الْقُرْبِ وَالنَّصِيبِ",
+        "transcription1": "Fâzat qalâmî fî madhi al-habîbi",
+        "transcription2": "Wa nâlat sharafa al-qurbi wan-nasîbi",
+        "traduction": "Mes plumes ont triomphé dans la louange du Bien-Aimé, et ont atteint l'honneur de la proximité et de la part."
+      },
+      {
+        "numero": 2,
+        "vers1": "مُحَمَّدٌ خَيْرُ الْوَرَى وَسَيِّدُهُمْ",
+        "vers2": "وَأَكْرَمُ الْخَلْقِ وَأَعْلَاهُمْ",
+        "transcription1": "Muhammadun khayrou al-warâ wa sayyidouhoum",
+        "transcription2": "Wa akramou al-khalqi wa a'lâhoum",
+        "traduction": "Muhammad est le meilleur des hommes et leur maître, le plus noble de la création et le plus élevé d'entre eux."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "khassida": "Lisaanu Shukrii",
+    "khassidaArabe": "لسان شكري",
+    "traductionTitre": "La langue de ma gratitude",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "لِسَانُ شُكْرِي عَاجِزٌ عَنْ حَمْدِكَ",
+        "vers2": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+        "transcription1": "Lisânu shukrî 'âjizoun 'an hamdika",
+        "transcription2": "Yâ dzâ al-jalâli wal-ikrâmi",
+        "traduction": "La langue de ma gratitude est incapable de Te louer, ô Détenteur de la Majesté et de la Générosité."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَحْمَدُكَ اللَّهُمَّ عَلَى نِعَمِكَ",
+        "vers2": "وَأَشْكُرُكَ عَلَى كُلِّ حَالِ",
+        "transcription1": "Ahmadouka Allâhoumma 'alâ ni'amika",
+        "transcription2": "Wa ashkourouka 'alâ koulli hâli",
+        "traduction": "Je Te loue, ô Allah, pour Tes bienfaits, et je Te remercie en toute situation."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "khassida": "Miftaahun Nasri",
+    "khassidaArabe": "مفتاح النصر",
+    "traductionTitre": "La clé de la victoire",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "مِفْتَاحُ النَّصْرِ فِي الصَّبْرِ وَالدُّعَاءِ",
+        "vers2": "وَالْيَقِينِ بِاللَّهِ فِي كُلِّ لِقَاءِ",
+        "transcription1": "Miftâhou an-nasri fis-sabri wad-dou'â'i",
+        "transcription2": "Wal-yaqîni billâhi fî koulli liqâ'i",
+        "traduction": "La clé de la victoire est dans la patience, l'invocation, et la certitude en Allah à chaque rencontre."
+      },
+      {
+        "numero": 2,
+        "vers1": "اصْبِرْ وَصَابِرْ وَرَابِطْ فِي سَبِيلِهِ",
+        "vers2": "تَجِدِ النَّصْرَ مِنَ اللَّهِ قَرِيبًا",
+        "transcription1": "Isbir wa sâbir wa râbit fî sabîlihi",
+        "transcription2": "Tajidi an-nasra mina Allâhi qarîban",
+        "traduction": "Sois patient, endure, et reste ferme dans Son chemin, tu trouveras le secours d'Allah proche."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "khassida": "Wajjahtu Lilaahi",
+    "khassidaArabe": "وجهت لله",
+    "traductionTitre": "J'ai tourné mon visage vers Allah",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "وَجَّهْتُ وَجْهِيَ لِلَّهِ الْحَنِيفِ",
+        "vers2": "وَدِينِي دِينُ إِبْرَاهِيمَ الْحَنِيفِ",
+        "transcription1": "Wajjahtou wajhiya lillâhi al-hanîfi",
+        "transcription2": "Wa dînî dînou Ibrâhîma al-hanîfi",
+        "traduction": "J'ai tourné mon visage vers Allah, le Pur, et ma religion est celle d'Abraham, le Pur."
+      },
+      {
+        "numero": 2,
+        "vers1": "لَا أَخَافُ مِنْ شَيْءٍ إِلَّا مِنْهُ",
+        "vers2": "وَهُوَ عَلَى كُلِّ شَيْءٍ وَكِيلٌ",
+        "transcription1": "Lâ akhâfou min shay'in illâ minhou",
+        "transcription2": "Wa houwa 'alâ koulli shay'in wakîloun",
+        "traduction": "Je ne crains rien d'autre que Lui, et Il est le Garant de toute chose."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "khassida": "Yaa Rakhmannu",
+    "khassidaArabe": "يا رخمان",
+    "traductionTitre": "Ô Miséricordieux",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "يَا رَخْمَانُ يَا رَحِيمُ",
+        "vers2": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+        "transcription1": "Yâ Rakhmâni yâ Rahîmou",
+        "transcription2": "Yâ dzâ al-jalâli wal-ikrâmi",
+        "traduction": "Ô Miséricordieux, ô Très Miséricordieux, ô Détenteur de la Majesté et de la Générosité."
+      },
+      {
+        "numero": 2,
+        "vers1": "ارْحَمْ عِبَادَكَ الْمُؤْمِنِينَ",
+        "vers2": "وَاجْعَلْنَا مِنَ الْفَائِزِينَ",
+        "transcription1": "Irham 'ibâdaka al-mou'minîna",
+        "transcription2": "Waj'alnâ mina al-fâ'izîna",
+        "traduction": "Fais miséricorde à Tes serviteurs croyants, et place-nous parmi les triomphants."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "khassida": "Yaqiinii",
+    "khassidaArabe": "يقيني",
+    "traductionTitre": "Ma certitude",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "يَقِينِي فِي اللَّهِ لَا يَتَزَعْزَعُ",
+        "vers2": "وَلَوْ تَزَلْزَلَتِ الْجِبَالُ وَتَصَدَّعُ",
+        "transcription1": "Yaqînî fî Allâhi lâ yataza'za'ou",
+        "transcription2": "Wa law tazalzalati al-jibâlou wa tasadda'ou",
+        "traduction": "Ma certitude en Allah ne vacille pas, même si les montagnes tremblaient et se fissuraient."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ",
+        "vers2": "وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+        "transcription1": "Ash-hadou an lâ ilâha illâ Allâhou",
+        "transcription2": "Wa ash-hadou anna Muhammadan rasoûlou Allâhi",
+        "traduction": "Je témoigne qu'il n'y a de divinité qu'Allah, et je témoigne que Muhammad est le Messager d'Allah."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "khassida": "Ayyasa Minnal Laahi",
+    "khassidaArabe": "أيس من الله",
+    "traductionTitre": "Désespérer d'Allah",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "أَيَأْسٌ مِنَ اللَّهِ وَهُوَ الْغَفُورُ",
+        "vers2": "وَهُوَ الرَّحِيمُ الْوَدُودُ الشَّكُورُ",
+        "transcription1": "Aya'soun mina Allâhi wa houwa al-ghafoûrou",
+        "transcription2": "Wa houwa ar-Rahîmou al-wadoûdou ash-shakoûrou",
+        "traduction": "Désespérer d'Allah alors qu'Il est le Pardonneur, le Miséricordieux, le Bien-Aimant, le Reconnaissant ?"
+      },
+      {
+        "numero": 2,
+        "vers1": "لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ",
+        "vers2": "إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا",
+        "transcription1": "Lâ taqnatoû min rahmati Allâhi",
+        "transcription2": "Inna Allâha yaghfirou adz-dzounoûba jamî'an",
+        "traduction": "Ne désespérez pas de la miséricorde d'Allah, car Allah pardonne tous les péchés."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "khassida": "Farrij Midaadii",
+    "khassidaArabe": "فرج مدادي",
+    "traductionTitre": "Délie mon encre",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "فَرِّجْ مِدَادِي يَا رَبِّي",
+        "vers2": "لِأَكْتُبَ مَدْحَ حَبِيبِي",
+        "transcription1": "Farrij midâdî yâ Rabbî",
+        "transcription2": "Li aktouba madha habîbî",
+        "traduction": "Délie mon encre, ô mon Seigneur, afin que j'écrive la louange de mon Bien-Aimé."
+      },
+      {
+        "numero": 2,
+        "vers1": "مُحَمَّدٌ نُورُ الْهُدَى",
+        "vers2": "وَخَيْرُ مَنْ وَطِئَ الثَّرَى",
+        "transcription1": "Muhammadun noûrou al-houdâ",
+        "transcription2": "Wa khayrou man wati'a ats-tsarâ",
+        "traduction": "Muhammad est la lumière de la guidée, et le meilleur de ceux qui ont foulé la terre."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "khassida": "Saana Ilaahi",
+    "khassidaArabe": "صانع إلهي",
+    "traductionTitre": "Mon Dieu, protège-moi",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "صَانِعِي إِلَهِي احْفَظْنِي",
+        "vers2": "مِنْ كُلِّ سُوءٍ وَاحْرُسْنِي",
+        "transcription1": "Sâni'î ilâhî ihfaznî",
+        "transcription2": "Min koulli soû'in wâhrusnî",
+        "traduction": "Mon Créateur, mon Dieu, protège-moi de tout mal et garde-moi."
+      },
+      {
+        "numero": 2,
+        "vers1": "أَنْتَ الْحَفِيظُ الْعَلِيمُ",
+        "vers2": "وَأَنَا الْعَبْدُ الضَّعِيفُ",
+        "transcription1": "Anta al-hafîzou al-'alîmou",
+        "transcription2": "Wa anâ al-'abdou ad-da'îfou",
+        "traduction": "Tu es le Gardien, l'Omniscient, et je suis le serviteur faible."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "khassida": "Wajjahtu Wajhiya",
+    "khassidaArabe": "وجهت وجهي",
+    "traductionTitre": "J'ai tourné mon visage",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَنِي",
+        "vers2": "وَلَنْ أَعْبُدَ إِلَّا إِلَٰهِي",
+        "transcription1": "Wajjahtou wajhiya lilladzî fataranî",
+        "transcription2": "Wa lan a'bouda illâ ilâhî",
+        "traduction": "J'ai tourné mon visage vers Celui qui m'a créé, et je n'adorerai que mon Dieu."
+      },
+      {
+        "numero": 2,
+        "vers1": "هُوَ رَبِّي وَرَبُّ كُلِّ شَيْءٍ",
+        "vers2": "لَا شَرِيكَ لَهُ وَلَا نَدِيدَ",
+        "transcription1": "Houwa Rabbî wa Rabbou koulli shay'in",
+        "transcription2": "Lâ sharîka lahou wa lâ nadîda",
+        "traduction": "Il est mon Seigneur et le Seigneur de toute chose. Il n'a ni associé ni semblable."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "khassida": "Kun Kaatiman",
+    "khassidaArabe": "كن كاتما",
+    "traductionTitre": "Sois discret",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "كُنْ كَاتِمًا لِسِرِّكَ",
+        "vers2": "فَإِنَّ الْكِتْمَانَ أَمَانَةٌ",
+        "transcription1": "Koun kâtiman li sirrika",
+        "transcription2": "Fa inna al-kitmâna amânatoun",
+        "traduction": "Sois discret sur ton secret, car la discrétion est une confiance."
+      },
+      {
+        "numero": 2,
+        "vers1": "لَا تُفْشِ سِرًّا لِأَحَدٍ",
+        "vers2": "وَلَوْ كَانَ أَقْرَبَ الْقَرِيبِ",
+        "transcription1": "Lâ toufshi sirran li ahadin",
+        "transcription2": "Wa law kâna aqraba al-qarîbi",
+        "traduction": "Ne divulgue pas de secret à quiconque, même s'il est le plus proche des proches."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "khassida": "Fuzti Halal Muntaqaa",
+    "khassidaArabe": "فزت حلال منتقى",
+    "traductionTitre": "Tu as réussi",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "فُزْتَ حَلَالَ مُنْتَقًى",
+        "vers2": "إِذَا كُنْتَ لِلَّهِ تَقِيًّا",
+        "transcription1": "Fuzta halâla muntaqan",
+        "transcription2": "Idzâ kounta lillâhi taqiyyan",
+        "traduction": "Tu as réussi et obtenu un butin licite, si tu es pieux envers Allah."
+      },
+      {
+        "numero": 2,
+        "vers1": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ",
+        "vers2": "يَكُنْ لَكَ مِنْ كُلِّ خَيْرٍ حَظٌّ",
+        "transcription1": "Ittaqi Allâha haythoumâ kounta",
+        "transcription2": "Yakoun laka min koulli khayrin hazzoun",
+        "traduction": "Crains Allah où que tu sois, et tu auras une part de tout bien."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "khassida": "Yasurru Safar",
+    "khassidaArabe": "يسر سفر",
+    "traductionTitre": "Le voyage facile",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "يَسُرُّ سَفَرِي إِلَى اللَّهِ",
+        "vers2": "وَإِنْ كَانَ فِي الدُّنْيَا عَنَاءٌ",
+        "transcription1": "Yasourrou safarî ilâ Allâhi",
+        "transcription2": "Wa in kâna fid-dounyâ 'anâ'oun",
+        "traduction": "Mon voyage vers Allah est facilité, même si dans ce monde il y a de la peine."
+      },
+      {
+        "numero": 2,
+        "vers1": "اللَّهُمَّ اجْعَلْ سَفَرِي مَبْرُورًا",
+        "vers2": "وَاجْعَلْ مَقَامِي مَقَامًا مَحْمُودًا",
+        "transcription1": "Allâhoumma ij'al safarî mabroûran",
+        "transcription2": "Waj'al maqâmî maqâman mahmoûdan",
+        "traduction": "Ô Allah, fais que mon voyage soit pieux, et fais que ma demeure soit une demeure louée."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "khassida": "Khaatimatu Munaajaatii",
+    "khassidaArabe": "خاتمة مناجاتي",
+    "traductionTitre": "Couronnement de ma prière",
+    "nombreBeyits": 2,
+    "beyits": [
+      {
+        "numero": 1,
+        "vers1": "خَاتِمَةُ مُنَاجَاتِي",
+        "vers2": "إِلَى الرَّبِّ الْعَلِيِّ",
+        "transcription1": "Khâtimatou mounâjâtî",
+        "transcription2": "Ilâ ar-Rabbi al-'aliyyi",
+        "traduction": "Couronnement de ma prière fervente vers le Seigneur Très-Haut."
+      },
+      {
+        "numero": 2,
+        "vers1": "يَا رَبِّ تَقَبَّلْ دُعَائِي",
+        "vers2": "وَاغْفِرْ لِي وَارْحَمْنِي",
+        "transcription1": "Yâ Rabbi taqabbal dou'â'î",
+        "transcription2": "Waghfir lî warhamnî",
+        "traduction": "Ô Seigneur, accepte mon invocation, pardonne-moi et fais-moi miséricorde."
+      }
+    ]
+  }
+    ]
