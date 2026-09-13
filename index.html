@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="theme-color" content="#050a08">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="description" content="KHASSIDA — Une touche. Un beyit. Un rappel.">
+
+    <title>KHASSIDA — Serigne Touba</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Marcellus&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background" aria-hidden="true">
+    <div class="gradient-orb orb-one"></div>
+    <div class="gradient-orb orb-two"></div>
+    <div class="stars">
+        <span>✦</span><span>·</span><span>✧</span><span>·</span>
+    </div>
+</div>
+
+
+<main id="app">
+
+    <header class="topbar">
+        <button class="icon-button" id="menuButton" aria-label="Menu" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="brand">
+            <div class="brand-symbol">✦</div>
+            <div class="brand-text">
+                <span class="brand-name">KHASSIDA</span>
+                <span class="brand-subtitle" data-i18n="brand.subtitle">SERIGNE TOUBA</span>
+            </div>
+        </div>
+
+        <button class="icon-button" id="themeButton" aria-label="Theme" type="button">
+            ☾
+        </button>
+    </header>
+
+
+    <section class="ayah-screen" id="ayahScreen" aria-label="Khassida">
+
+        <div class="daily-label">
+            <span class="label-line"></span>
+            <span id="dailyLabel" data-i18n="home.label">UN BEYIT POUR VOUS</span>
+            <span class="label-line"></span>
+        </div>
+
+        <div class="bismillah" id="bismillah" dir="rtl">
+            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+        </div>
+
+        <article class="ayah-card" id="ayahCard">
+
+            <div class="card-glow"></div>
+
+            <div class="corner corner-top-left"></div>
+            <div class="corner corner-top-right"></div>
+            <div class="corner corner-bottom-left"></div>
+            <div class="corner corner-bottom-right"></div>
+
+            <div class="khassida-title">
+                <span id="khassidaName" class="khassida-name">JAWARTOU</span>
+            </div>
+
+            <div class="beyit-vertical" dir="rtl">
+                <p id="arabicLine1" class="beyit-verse">فَرَقْتُ إِبْلِيسَ وَجَمِيعَ الْمَفَاسِدِ</p>
+                <div class="beyit-sep" aria-hidden="true">✦</div>
+                <p id="arabicLine2" class="beyit-verse">وَمَا زِلْتُ فِي حِصْنِي الْحَصِينِ الْمُمَجَّدِ</p>
+            </div>
+
+            <div class="beyit-trans-vertical" id="transcriptionBlock">
+                <p id="transcriptionLine1" class="beyit-trans-verse">Faraqtou Iblissa wa jami' al mafassidi</p>
+                <p id="transcriptionLine2" class="beyit-trans-verse">Wa ma ziltou fi hisni al-hasin al-mumajjadi</p>
+            </div>
+
+            <div class="ornament">
+                <span></span>
+                <i>✦</i>
+                <span></span>
+            </div>
+
+            <div class="translation-container">
+                <p id="translationText" class="translation-text">
+                    J'ai délaissé Satan et toutes les corruptions, et je demeure dans ma forteresse glorifiée.
+                </p>
+            </div>
+
+            <div id="reminderBox" class="reminder-box"></div>
+
+            <div class="reference">
+                <span id="referenceName" class="reference-name">SHEIKH AHMADOU BAMBA</span>
+            </div>
+
+        </article>
+
+
+        <div class="actions">
+
+            <button class="action-button" id="favoriteButton" type="button">
+                <span class="action-icon">♡</span>
+                <span class="action-label" data-i18n="actions.favorite">Favori</span>
+            </button>
+
+            <button class="action-button" id="shareButton" type="button">
+                <span class="action-icon">↗</span>
+                <span class="action-label" data-i18n="actions.share">Partager</span>
+            </button>
+
+            <button class="action-button" id="copyButton" type="button">
+                <span class="action-icon">⧉</span>
+                <span class="action-label" data-i18n="actions.copy">Copier</span>
+            </button>
+
+        </div>
+
+        <button class="discover-button" id="discoverButton" type="button">
+            <span class="discover-icon">✦</span>
+            <span class="discover-text" data-i18n="actions.discover">DÉCOUVRIR UN BEYIT</span>
+            <span class="discover-arrow">→</span>
+        </button>
+
+        <p class="touch-hint" data-i18n="home.hint">Touchez n'importe où pour continuer</p>
+
+    </section>
+
+
+    <footer class="bottom-navigation">
+
+        <button class="nav-item active" data-page="home" type="button">
+            <span class="nav-icon">✦</span>
+            <span class="nav-label" data-i18n="nav.home">Découvrir</span>
+        </button>
+
+        <button class="nav-item" data-page="favorites" type="button">
+            <span class="nav-icon">♡</span>
+            <span class="nav-label" data-i18n="nav.favorites">Favoris</span>
+        </button>
+
+        <button class="nav-item" data-page="duas" type="button">
+            <span class="nav-icon">☪</span>
+            <span class="nav-label" data-i18n="nav.duas">Du'a</span>
+        </button>
+
+        <button class="nav-item" data-page="zikr" type="button">
+            <span class="nav-icon">📿</span>
+            <span class="nav-label" data-i18n="nav.zikr">Zikr</span>
+        </button>
+
+        <button class="nav-item" data-page="about" type="button">
+            <span class="nav-icon">ℹ</span>
+            <span class="nav-label" data-i18n="nav.about">À propos</span>
+        </button>
+
+        <button class="nav-item" data-page="settings" type="button">
+            <span class="nav-icon">⚙</span>
+            <span class="nav-label" data-i18n="nav.settings">Réglages</span>
+        </button>
+
+    </footer>
+
+</main>
+
+
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
+
+<aside class="side-menu" id="sideMenu" aria-label="Menu">
+
+    <div class="menu-header">
+        <div>
+            <span class="menu-brand">KHASSIDA</span>
+            <span class="menu-tagline" data-i18n="brand.tagline">Serigne Touba</span>
+        </div>
+        <button class="close-menu" id="closeMenu" type="button">×</button>
+    </div>
+
+    <div class="menu-content">
+
+        <button class="menu-option" data-menu="home" type="button">
+            <span>✦</span>
+            <div>
+                <strong data-i18n="menu.home">Découvrir</strong>
+                <small data-i18n="menu.home.sub">Nouveaux beyits</small>
+            </div>
+        </button>
+
+        <button class="menu-option" data-menu="favorites" type="button">
+            <span>♡</span>
+            <div>
+                <strong data-i18n="menu.favorites">Mes favoris</strong>
+                <small data-i18n="menu.favorites.sub">Beyits sauvegardés</small>
+            </div>
+        </button>
+
+        <button class="menu-option" data-menu="duas" type="button">
+            <span>☪</span>
+            <div>
+                <strong data-i18n="menu.duas">Du'a</strong>
+                <small data-i18n="menu.duas.sub">Invocations essentielles</small>
+            </div>
+        </button>
+
+        <button class="menu-option" data-menu="zikr" type="button">
+            <span>📿</span>
+            <div>
+                <strong data-i18n="menu.zikr">Compteur Zikr</strong>
+                <small data-i18n="menu.zikr.sub">Évoque Allah</small>
+            </div>
+        </button>
+
+        <button class="menu-option" data-menu="about" type="button">
+            <span>ℹ</span>
+            <div>
+                <strong data-i18n="menu.about">À propos</strong>
+                <small data-i18n="menu.about.sub">Cheikhoul Khadim</small>
+            </div>
+        </button>
+
+        <div class="menu-separator"></div>
+
+        <button class="menu-option" data-menu="settings" type="button">
+            <span>⚙</span>
+            <div>
+                <strong data-i18n="menu.settings">Paramètres</strong>
+                <small data-i18n="menu.settings.sub">Personnaliser</small>
+            </div>
+        </button>
+
+    </div>
+
+    <div class="menu-footer">
+        <div class="menu-motto">
+            <span>✦</span>
+            <p data-i18n="menu.quote">« Quiconque s'attache à moi, jamais il ne périra. »</p>
+        </div>
+        <small>SERIGNE TOUBA • Cheikh Ahmadou Bamba</small>
+    </div>
+
+</aside>
+
+
+<!-- MODAL FAVORIS -->
+<div class="modal" id="favoritesModal" aria-hidden="true">
+    <div class="modal-box">
+        <button class="modal-close" data-close-modal type="button">×</button>
+        <div class="modal-symbol">♡</div>
+        <h2 data-i18n="favorites.title">Mes favoris</h2>
+        <p id="favoritesEmpty" data-i18n="favorites.empty">Vos beyits favoris apparaîtront ici.</p>
+        <div id="favoritesList" class="favorites-list"></div>
+    </div>
+</div>
+
+
+<!-- MODAL DU'A -->
+<div class="modal" id="duasModal" aria-hidden="true">
+    <div class="modal-box duas-modal">
+        <button class="modal-close" data-close-modal type="button">×</button>
+        <div class="modal-symbol">☪</div>
+        <h2 data-i18n="duas.title">Invocations</h2>
+        <p data-i18n="duas.subtitle">Les 5 du'a essentielles</p>
+        <div id="duasList" class="duas-list"></div>
+    </div>
+</div>
+
+
+<!-- MODAL ZIKR -->
+<div class="modal" id="zikrModal" aria-hidden="true">
+    <div class="modal-box zikr-modal">
+
+        <button class="modal-close" data-close-modal type="button">×</button>
+
+        <div class="modal-symbol">📿</div>
+        <h2 data-i18n="zikr.title">Compteur de Zikr</h2>
+        <p data-i18n="zikr.subtitle">Évoque Allah</p>
+
+        <div class="zikr-selector" id="zikrSelector">
+            <button class="zikr-choice active" data-zikr="subhanallah" type="button">
+                <span class="zikr-choice-ar">سُبْحَانَ اللَّهِ</span>
+                <span class="zikr-choice-label">SubhanAllah</span>
+            </button>
+            <button class="zikr-choice" data-zikr="alhamdulillah" type="button">
+                <span class="zikr-choice-ar">الْحَمْدُ لِلَّهِ</span>
+                <span class="zikr-choice-label">Alhamdulillah</span>
+            </button>
+            <button class="zikr-choice" data-zikr="allahuakbar" type="button">
+                <span class="zikr-choice-ar">اللَّهُ أَكْبَرُ</span>
+                <span class="zikr-choice-label">Allahu Akbar</span>
+            </button>
+            <button class="zikr-choice" data-zikr="lailahaillallah" type="button">
+                <span class="zikr-choice-ar">لَا إِلَٰهَ إِلَّا اللَّهُ</span>
+                <span class="zikr-choice-label">La ilaha illallah</span>
+            </button>
+            <button class="zikr-choice" data-zikr="astaghfirullah" type="button">
+                <span class="zikr-choice-ar">أَسْتَغْفِرُ اللَّهَ</span>
+                <span class="zikr-choice-label">Astaghfirullah</span>
+            </button>
+            <button class="zikr-choice" data-zikr="sallallahou" type="button">
+                <span class="zikr-choice-ar">صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ</span>
+                <span class="zikr-choice-label">Salât</span>
+            </button>
+        </div>
+
+        <div class="zikr-current">
+            <p class="zikr-current-ar" id="zikrCurrentAr" dir="rtl">سُبْحَانَ اللَّهِ</p>
+            <p class="zikr-current-label" id="zikrCurrentLabel">SubhanAllah</p>
+        </div>
+
+        <div class="zikr-counter" id="zikrCounter">
+            <div class="zikr-counter-ring"></div>
+            <div class="zikr-counter-value">
+                <span id="zikrCount">0</span>
+                <small id="zikrTarget">/ 33</small>
+            </div>
+        </div>
+
+        <div class="zikr-progress-track">
+            <div class="zikr-progress-bar" id="zikrProgressBar"></div>
+        </div>
+
+        <button class="zikr-tap-button" id="zikrTapButton" type="button">
+            <span class="zikr-tap-icon">✛</span>
+            <span class="zikr-tap-text" data-i18n="zikr.tap">TOUCHER POUR COMPTER</span>
+        </button>
+
+        <div class="zikr-actions">
+            <button class="zikr-action-btn" id="zikrResetButton" type="button">
+                <span>↻</span>
+                <span data-i18n="zikr.reset">Réinitialiser</span>
+            </button>
+            <button class="zikr-action-btn" id="zikrTargetButton" type="button">
+                <span>🎯</span>
+                <span id="zikrTargetLabel">Objectif : 33</span>
+            </button>
+        </div>
+
+        <div class="zikr-total">
+            <span class="zikr-total-label" data-i18n="zikr.total">Total cumulé</span>
+            <span class="zikr-total-value" id="zikrTotal">0</span>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- MODAL PARTAGE -->
+<div class="modal" id="shareModal" aria-hidden="true">
+    <div class="modal-box share-modal">
+
+        <button class="modal-close" data-close-modal type="button">×</button>
+
+        <div class="modal-symbol">↗</div>
+        <h2 data-i18n="share.title">Partager</h2>
+        <p data-i18n="share.subtitle">Choisissez comment partager</p>
+
+        <div class="share-options">
+            <button class="share-option" data-share="copy" type="button">
+                <span class="share-icon">📋</span>
+                <span class="share-label" data-i18n="share.copy">Copier</span>
+                <span class="share-desc" data-i18n="share.copy.sub">Le texte</span>
+            </button>
+            <button class="share-option" data-share="image" type="button">
+                <span class="share-icon">🖼️</span>
+                <span class="share-label" data-i18n="share.image">Image</span>
+                <span class="share-desc" data-i18n="share.image.sub">Jolie carte</span>
+            </button>
+            <button class="share-option" data-share="whatsapp" type="button">
+                <span class="share-icon">💬</span>
+                <span class="share-label">WhatsApp</span>
+                <span class="share-desc" data-i18n="share.send">Envoyer</span>
+            </button>
+            <button class="share-option" data-share="telegram" type="button">
+                <span class="share-icon">✈️</span>
+                <span class="share-label">Telegram</span>
+                <span class="share-desc" data-i18n="share.send">Envoyer</span>
+            </button>
+            <button class="share-option" data-share="email" type="button">
+                <span class="share-icon">✉️</span>
+                <span class="share-label">Email</span>
+                <span class="share-desc" data-i18n="share.send">Envoyer</span>
+            </button>
+            <button class="share-option" data-share="native" type="button">
+                <span class="share-icon">📱</span>
+                <span class="share-label" data-i18n="share.native">Partager</span>
+                <span class="share-desc" data-i18n="share.native.sub">Système</span>
+            </button>
+        </div>
+
+        <div class="share-preview" id="sharePreview">
+            <canvas id="shareCanvas" width="1080" height="1350"></canvas>
+        </div>
+
+        <div class="share-preview-actions" id="sharePreviewActions">
+            <button class="share-action-btn" id="shareDownloadBtn" type="button" data-i18n="share.download">
+                ⬇️ Télécharger
+            </button>
+            <button class="share-action-btn primary" id="shareNativeImageBtn" type="button" data-i18n="share.shareImage">
+                ↗ Partager l'image
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- MODAL À PROPOS -->
+<div class="modal" id="aboutModal" aria-hidden="true">
+    <div class="modal-box about-modal">
+
+        <button class="modal-close" data-close-modal type="button">×</button>
+
+        <div class="modal-symbol">✦</div>
+        <h2 data-i18n="about.title">Cheikhoul Khadim</h2>
+
+        <p class="about-subtitle">
+            Cheikh Ahmadou Bamba Mbacké
+            <br>
+            <span class="about-dates">1853 — 1927</span>
+        </p>
+
+        <div class="about-content">
+
+            <div class="about-section">
+                <h3 class="about-section-title">
+                    <span>✦</span>
+                    <span data-i18n="about.s1.title">L'homme de Dieu</span>
+                </h3>
+                <p data-i18n="about.s1.text">
+                    Cheikh Ahmadou Bamba, surnommé Khadimou Rassoul (le Serviteur du Prophète ﷺ), est le fondateur du mouridisme. Il fut un érudit, un poète, un ascète et un pacificateur.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h3 class="about-section-title">
+                    <span>✦</span>
+                    <span data-i18n="about.s2.title">Naissance et origines</span>
+                </h3>
+                <p data-i18n="about.s2.text">
+                    Né en 1853 à Mbacké-Baol. Son père Cheikh Momar Anta Sali était un juriste respecté, sa mère Mame Diarra Bousso une femme pieuse.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h3 class="about-section-title">
+                    <span>✦</span>
+                    <span data-i18n="about.s3.title">La voie spirituelle</span>
+                </h3>
+                <p data-i18n="about.s3.text">Trois piliers :</p>
+                <ul class="about-list">
+                    <li data-i18n="about.s3.li1">L'amour d'Allah et de Son Prophète ﷺ</li>
+                    <li data-i18n="about.s3.li2">Le travail et la dignité par l'effort</li>
+                    <li data-i18n="about.s3.li3">Le service (khidma) aux autres</li>
+                </ul>
+            </div>
+
+            <div class="about-section about-quotes">
+                <h3 class="about-section-title">
+                    <span>✦</span>
+                    <span data-i18n="about.quotes.title">Paroles</span>
+                </h3>
+                <blockquote data-i18n="about.quote1">Quiconque s'attache à moi, jamais il ne périra.</blockquote>
+                <blockquote data-i18n="about.quote2">Si vous voulez être aimé d'Allah, aimez Son Prophète ﷺ.</blockquote>
+            </div>
+
+            <div class="about-section about-note">
+                <p data-i18n="about.note">Ce récit ne relate qu'une infime partie de la vie du Cheikh.</p>
+            </div>
+
+            <div class="about-section about-closure">
+                <p data-i18n="about.closure">Qu'Allah l'agrée, et qu'Il nous accorde sa baraka.</p>
+                <p class="about-amin">آمين</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- MODAL PARAMÈTRES -->
+<div class="modal" id="settingsModal" aria-hidden="true">
+    <div class="modal-box settings-modal">
+
+        <button class="modal-close" data-close-modal type="button">×</button>
+
+        <div class="modal-symbol">⚙</div>
+        <h2 data-i18n="settings.title">Paramètres</h2>
+        <p data-i18n="settings.subtitle">Personnalisez votre expérience</p>
+
+        <!-- Thème -->
+        <div class="setting-section">
+            <div class="setting-label">
+                <span>🌙</span>
+                <span data-i18n="settings.theme">Thème</span>
+            </div>
+            <div class="setting-options" id="themeOptions">
+                <button class="setting-option" data-theme-choice="dark" type="button">
+                    <span class="option-icon">☾</span>
+                    <span class="option-label" data-i18n="settings.theme.dark">Sombre</span>
+                </button>
+                <button class="setting-option" data-theme-choice="light" type="button">
+                    <span class="option-icon">☀</span>
+                    <span class="option-label" data-i18n="settings.theme.light">Clair</span>
+                </button>
+                <button class="setting-option" data-theme-choice="auto" type="button">
+                    <span class="option-icon">◐</span>
+                    <span class="option-label" data-i18n="settings.theme.auto">Auto</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Taille du texte -->
+        <div class="setting-section">
+            <div class="setting-label">
+                <span>🔤</span>
+                <span data-i18n="settings.font">Taille du texte</span>
+            </div>
+            <div class="setting-options" id="fontOptions">
+                <button class="setting-option" data-font="small" type="button">
+                    <span class="option-icon">A</span>
+                    <span class="option-label" data-i18n="settings.font.small">Petit</span>
+                </button>
+                <button class="setting-option" data-font="medium" type="button">
+                    <span class="option-icon" style="font-size:1.1rem;">A</span>
+                    <span class="option-label" data-i18n="settings.font.medium">Moyen</span>
+                </button>
+                <button class="setting-option" data-font="large" type="button">
+                    <span class="option-icon" style="font-size:1.3rem;">A</span>
+                    <span class="option-label" data-i18n="settings.font.large">Grand</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 🌍 LANGUE -->
+        <div class="setting-section">
+            <div class="setting-label">
+                <span>🌍</span>
+                <span data-i18n="settings.language">Langue</span>
+            </div>
+            <div class="setting-options" id="languageOptions">
+                <button class="setting-option" data-lang="fr" type="button">
+                    <span class="option-icon">🇫🇷</span>
+                    <span class="option-label">Français</span>
+                </button>
+                <button class="setting-option" data-lang="en" type="button">
+                    <span class="option-icon">🇬🇧</span>
+                    <span class="option-label">English</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Affichage -->
+        <div class="setting-section">
+            <div class="setting-label">
+                <span>✨</span>
+                <span data-i18n="settings.display">Affichage</span>
+            </div>
+            <div class="setting-toggles">
+                <label class="setting-toggle">
+                    <span class="toggle-text" data-i18n="settings.transcription">📝 Afficher la transcription phonétique</span>
+                    <input type="checkbox" id="transcriptionToggle" checked>
+                    <span class="toggle-switch"></span>
+                </label>
+                <label class="setting-toggle">
+                    <span class="toggle-text" data-i18n="settings.vibrate">📳 Vibrer au toucher</span>
+                    <input type="checkbox" id="vibrateToggle">
+                    <span class="toggle-switch"></span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Danger -->
+        <div class="setting-section setting-danger">
+            <button class="danger-button" id="resetButton" type="button" data-i18n="settings.reset">
+                🗑️ Réinitialiser mes favoris
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+    <span id="toastIcon">✦</span>
+    <span id="toastMessage">Nouveau beyit</span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
